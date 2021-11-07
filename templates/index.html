@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to fit=no">
+    <title>Dont Read!!</title>
+    <link rel="stylesheet" type="text/css" href="static/css/master.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+
+        </div>
+    </nav>
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Dont Read!!</h2>
+            <div class="contact-content">
+
+                <div class="column right">
+                    <div class="text">Input Text Here!</div>
+                    <form action="#" method="POST">
+                        <div class="fields">
+                        </div>
+
+                        <div class="fields textarea">
+                            <textarea name="text" cols="30" rows="20" placeholder="your input..." required></textarea>
+                        </div>
+
+						{% if summarised %}
+						<p>{{ summarised }}</p>
+						{% endif %}
+ 
+
+                        <div class="button">
+                            <button type="submit" id="submit">Summarise</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
